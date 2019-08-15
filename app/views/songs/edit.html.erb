@@ -1,0 +1,9 @@
+Song
+<%= form_for @song do |f|%>
+Titile: <%= f.text_field :title %>
+Release_year: <%= f.text_field :release_year %>
+Genre: <%= f.text_field :genre %>
+artist_name: <%= f.text_field :artist_name %>
+Released: <%= f.check_box :released %>
+<% end %>
+
